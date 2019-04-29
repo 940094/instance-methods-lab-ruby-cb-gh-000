@@ -1,9 +1,9 @@
 class Dog
-  def bark
+  def name
     puts "Woof!"
   end
 
-  def sit
-    puts "The Dog is sitting"
-  end
+  def name
+    @name
 end
+
